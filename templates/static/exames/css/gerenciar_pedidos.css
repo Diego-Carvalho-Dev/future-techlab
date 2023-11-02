@@ -1,0 +1,30 @@
+
+
+.linha-tabela{
+    background-color: var(--dark-color);
+    height: 20px;
+}
+
+td, th{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:16px;
+    
+}
+
+.card-view{
+    text-align: center;
+    padding: 0;
+    border: none;
+    height: 47vh;
+}
+
+body {
+    background-image: url('/static/geral/img/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Isso pode ajudar a manter o fundo fixo, se desejado */
+    height: 100vh; /* Defina a altura da página para a altura da viewport */
+    margin: 0; /* Certifique-se de que não há margens extras */
+    padding-top:10%;
+}

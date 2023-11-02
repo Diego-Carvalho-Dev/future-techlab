@@ -1,0 +1,14 @@
+body {
+    background-image: url('/static/geral/img/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Isso pode ajudar a manter o fundo fixo, se desejado */
+    height: 100vh; /* Defina a altura da página para a altura da viewport */
+    margin: 0; /* Certifique-se de que não há margens extras */
+    padding-top:10%;
+}
+
+
+p{
+    color: var(--light-color);
+}
